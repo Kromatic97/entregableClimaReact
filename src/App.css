@@ -1,5 +1,4 @@
-body{
-    
+body{ 
   background-image:url(./utils/nube.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -7,25 +6,31 @@ body{
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  
 
 }
 
 .container{
   background-color: #C4D7E0;
-  width: 300px;
+  width: 350px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding:2em;   
+  gap: 0.3em;
 }
 
-.containe_btn{
-  padding: 10px;
+.container_clouds{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_btn{
+  width: 100px;
+  height: 50px;
   background-color: #A149FA;
   border-radius: 5px;
   border: none;
@@ -39,4 +44,6 @@ b{
 
 li{
   list-style: none;
+  color:#A149FA
 }
+

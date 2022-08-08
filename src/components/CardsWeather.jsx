@@ -53,7 +53,7 @@ const CardsWeather = ({ lat, lon }) => {
             alt=""
           />
 
-          <div>
+          <div className="container_clouds">
             <h3>&#34;{weather?.weather[0].description}&#34;</h3>
 
             <ul>
@@ -74,7 +74,7 @@ const CardsWeather = ({ lat, lon }) => {
         </div>
 
         <h2>{IsCelsius ? temperture?.celsius : temperture?.farenheit}</h2>
-        <button onClick={handleClick}>
+        <button className='container_btn' onClick={handleClick}>
           {IsCelsius ? "Change to ºF" : "Change to ºC"}
         </button>
       </article>
